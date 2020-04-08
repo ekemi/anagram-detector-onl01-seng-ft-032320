@@ -8,12 +8,12 @@ def initialize(word)
 
   end
  def match(array)
-   array.collect! do | value|
+   array.each do | value|
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
           value
-     else
-         nil
+    #  else
+    #      nil
     end
 
   end
