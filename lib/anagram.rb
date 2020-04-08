@@ -13,7 +13,7 @@ def initialize(word)
      if array_split.sort == @word.split("").sort
               value
       else
-        return []
+         []
             end
 
   end
