@@ -11,10 +11,10 @@ def initialize(word)
    array.each do | value|
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
-            puts  value
-      else
-      puts   []
-            end
+          value
+     else
+         nil
+    end
 
   end
  end
