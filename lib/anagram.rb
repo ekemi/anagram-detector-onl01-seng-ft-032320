@@ -11,7 +11,7 @@ def initialize(word)
    array.each do | value|
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
-          value
+          return value
     #  else
     #      nil
     end
