@@ -12,8 +12,6 @@ def initialize(word)
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
            value
-    #  else
-    #      nil
     end
 
   end
