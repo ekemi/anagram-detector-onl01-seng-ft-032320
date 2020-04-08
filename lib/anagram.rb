@@ -8,7 +8,7 @@ def initialize(word)
 
   end
  def match(array)
-   array.collect do | value|
+   array.select do | value|
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
            value
