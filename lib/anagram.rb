@@ -11,9 +11,9 @@ def initialize(word)
    array.each do | value|
      array_split = value.split("")
      if array_split.sort == @word.split("").sort
-              value
+            puts  value
       else
-         []
+      puts   []
             end
 
   end
